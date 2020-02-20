@@ -1,0 +1,22 @@
+@import "../../index.scss";
+
+.commentButtonContainer {
+  background-color: $lightBackground;
+  padding: 14px 34px;
+  margin: 0 auto;
+  width: calc(100% - 72px);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border: $border;
+  display: flex;
+  justify-content: flex-end;
+  .commentButton {
+    height: 32px;
+    width: 120px;
+    text-transform: uppercase;
+    color: $lightFontColor;
+    background-color: $brandColor;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+}
