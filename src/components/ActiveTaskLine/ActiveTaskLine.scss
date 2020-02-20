@@ -1,0 +1,39 @@
+@import "../../index.scss";
+
+.activeTaskLine {
+  padding: 17px 15px;
+  display: flex;
+  .profilePic {
+    margin-right: 11px;
+  }
+  .taskInfos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .taskTitleAndUser {
+      .taskName {
+        color: $darkerFontColor;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+      }
+      .userName {
+        color: $darkFontColor;
+        opacity: 0.8;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+      }
+    }
+    .taskDate {
+      color: $grayFontColor;
+      font-size: 12px;
+      font-weight: 400;
+    }
+  }
+}
+
+.selected {
+  background-color: $lightGray;
+  box-shadow: $boxShadowRed;
+}
