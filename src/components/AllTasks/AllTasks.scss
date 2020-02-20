@@ -1,0 +1,12 @@
+@import "../../index.scss";
+
+strong {
+  display: block;
+  width: 100%;
+  background-color: $brandColor;
+  color: $lightFontColor;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 28px;
+  padding: 16px 21px 16px 21px;
+}
