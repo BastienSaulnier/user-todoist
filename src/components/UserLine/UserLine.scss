@@ -1,0 +1,31 @@
+@import "../../index.scss";
+
+.userLine {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  .profilePic {
+    height: 36px;
+    margin-right: 13px;
+  }
+  .userInfos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .userNameAndEmail {
+      .userName {
+        color: $darkerFontColor;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+      }
+      .userEmail {
+        color: $userMailFontColor;
+        opacity: 0.8;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 20px;
+      }
+    }
+  }
+}
