@@ -1,0 +1,11 @@
+@import "../../index.scss";
+
+.endedTasksTitle {
+  background-color: $lightBrandColor;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 26px;
+  p {
+    color: $brandFontColor;
+  }
+}
