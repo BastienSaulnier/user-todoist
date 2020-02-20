@@ -1,0 +1,7 @@
+@import "../../index.scss";
+
+.board {
+  background-color: $lightGray;
+  width: calc(100% - 360px);
+  height: calc(100vh - 60px);
+}
