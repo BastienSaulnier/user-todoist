@@ -1,0 +1,11 @@
+export const GET_ALL_TASKS = "GET_ALL_TASKS";
+export const RESET_ALL = "RESET_ALL";
+export const SET_TASK_NAME = "SET_TASK_NAME";
+export const SET_TASK_COMMENT = "SET_TASK_COMMENT";
+export const ADD_TASK = "ADD_TASK";
+export const SUPPRESS_TASK = "SUPPRESS_TASK";
+export const SET_TASK = "SET_TASK";
+export const SET_RESOLVED = "SET_RESOLVED";
+export const ASSIGN_USER = "ASSIGN_USER";
+export const ASSIGN_DEADLINE = "ASSIGN_DEADLINE";
+export const UPDATE = "UPDATE";
