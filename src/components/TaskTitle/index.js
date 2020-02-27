@@ -10,8 +10,7 @@ import "./index.scss";
 
 class TaskTitle extends React.Component {
   render() {
-    const { taskById, taskName } = this.props;
-    const { setResolved, setTaskName, update } = this.props;
+    const { taskById, taskName, setResolved, setTaskName, update } = this.props;
 
     return (
       <div className="taskTitle">
