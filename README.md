@@ -1,3 +1,7 @@
+# user-todoist
+
+Todolist app made with and for user-agency
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
