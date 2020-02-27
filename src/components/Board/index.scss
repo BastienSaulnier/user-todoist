@@ -1,0 +1,14 @@
+@import "../../index.scss";
+
+.board {
+  background-color: $lightGray;
+  min-width: calc(100% - 360px);
+  .welcome {
+    background-color: $lightBackground;
+    box-shadow: $boxShadow;
+    padding: 16px 36px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+}

@@ -1,0 +1,20 @@
+@import "../../index.scss";
+
+.addTaskLine {
+  display: block;
+  height: 60px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: $buttonColor;
+  text-align: left;
+  padding: 16px 0 16px 21px;
+  border-bottom: solid 1px $lightGray;
+  cursor: pointer;
+}
+.selected {
+  background-color: $lightGray;
+  box-shadow: $boxShadowRed;
+  border-bottom: solid 1px $lightGray;
+}

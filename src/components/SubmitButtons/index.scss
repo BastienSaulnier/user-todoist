@@ -1,0 +1,14 @@
+@import "../../index.scss";
+
+.submitButtonsContainer {
+  height: 62px;
+  background-color: $lightBackground;
+  padding: 14px 34px;
+  margin: 0 auto;
+  width: calc(100% - 72px);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border: $border;
+  display: flex;
+  justify-content: flex-end;
+}

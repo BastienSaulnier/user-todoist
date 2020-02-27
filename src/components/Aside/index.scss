@@ -1,0 +1,25 @@
+@import "../../index.scss";
+
+aside {
+  width: 360px;
+  height: calc(100vh - 60px);
+  box-shadow: $boxShadow;
+  .asideWrapper {
+    overflow-y: scroll;
+    height: calc(100vh - 180px);
+  }
+  .asideWrapper::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px white;
+    background-color: $lightGray;
+  }
+
+  .asideWrapper::-webkit-scrollbar {
+    width: 6px;
+    background-color: $brandColor;
+  }
+
+  .asideWrapper::-webkit-scrollbar-thumb {
+    background-color: $brandColor;
+    border-radius: 6px;
+  }
+}

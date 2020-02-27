@@ -1,0 +1,44 @@
+@import "../../index.scss";
+
+.commentForm {
+  margin: 0 auto;
+  width: calc(100% - 72px);
+  background-color: $lightBackground;
+  padding: 0 36px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border: $border;
+  border-bottom: none;
+  padding: 17px;
+  p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 14px;
+    img {
+      margin-right: 17px;
+      vertical-align: middle;
+      display: inline-block;
+    }
+  }
+  textarea {
+    outline: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #212223;
+    opacity: 0.8;
+    padding: 14px;
+    width: calc(100% - 46px);
+    height: 164px;
+    margin: 0 23px;
+    border: $border;
+    border-radius: 2px;
+    resize: none;
+    color: transparent;
+    text-shadow: 0 0 0 #212223;
+    &:focus {
+      outline: none;
+    }
+  }
+}
